@@ -200,25 +200,25 @@ footer .content-lft i:hover{
 
 .content-lft{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     color: #fff;
 }
 
 .content-rght{
-width: 100%;
-display: flex;
-justify-content: space-between;
-justify-content: center;
-align-content: center;
-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    color: #fff;
+}
+
+.flexy{
+    align-items: center;
+    justify-content: center;
 }
 
 .music-ripro{
     width: 80%;
     display: flex;
-    align-items: center;
+    
 }
 
 .user{
