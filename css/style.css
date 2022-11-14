@@ -54,7 +54,6 @@ main img{
     height: 10vw;
 }
 
-
 main h1,
 main li{
     padding: .5rem 1rem;
@@ -186,7 +185,8 @@ footer{
 }
 
 footer img{
-    width: 15%;
+    width: 5vw;
+    height: 5vw;
     margin-right: 1rem;
 }
 
@@ -213,12 +213,6 @@ footer .content-lft i:hover{
 .flexy{
     align-items: center;
     justify-content: center;
-}
-
-.music-ripro{
-    width: 80%;
-    display: flex;
-    
 }
 
 .user{
@@ -259,7 +253,6 @@ footer .content-lft i:hover{
     width: 35%;
     font-size: .9rem;
 }
-
 
 .player-icon{
     width: 50%;
@@ -340,10 +333,6 @@ button{
 }
 
 /*----flexy stuff----*/
-
-.d-flex{
-    display: flex;
-}
 
 .align-end{
     display: flex;
