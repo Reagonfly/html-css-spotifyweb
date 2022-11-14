@@ -134,6 +134,13 @@ aside h3{
     font-size: 1rem;
 }
 
+.johny{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 10px;
+}
+
 .list-overflow{
     height: 200px;
     overflow-y: auto;
@@ -345,7 +352,7 @@ button{
     margin-right: 15vw;
 }
 
-/*----PADDING E MARGINI UTILITIES----*/
+/*----PADDING, MARGINI E UTILITIES----*/
 
 .v-margin{
     margin: 1rem 0;
@@ -357,6 +364,14 @@ button{
 
 .pad-left{
     padding-left: 1rem;
+}
+
+.small{
+    display: block;
+}
+
+.wild{
+    display: none;
 }
 
 /*----INPUT----*/
@@ -403,6 +418,14 @@ input[type=range]:hover::-webkit-slider-thumb{
         display: flex;
         justify-content: center;
         justify-content: space-around;
+    }
+
+    .small{
+        display: none;
+    }
+
+    .wild{
+        display: block;
     }
 
     .align-end{
