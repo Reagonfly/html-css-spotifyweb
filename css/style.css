@@ -347,6 +347,10 @@ button{
     margin: 1rem 0;
 }
 
+.v-margin-half{
+    margin: .5rem 0;
+}
+
 .v-padding{
     padding: 1rem 0;
 }
