@@ -147,7 +147,7 @@
             <!--main section-->
             
             <main>
-                <div class="">
+                <div class="row flexy">
                     <ul>
                         <li><a href="#">IN EVIDENZA</a></li>
                         <li><a href="#">PODCAST</a></li>
@@ -158,8 +158,8 @@
                     </ul>
                 </div>                
                 <h1 class="v-margin">Recently Played</h1>
-                <div class="">
-                    <div class="row band-card">
+                <div class="row">
+                    <div class="band-card">
                         <div class="col ">
                             <img src="./img/metal_lifting.jpg" alt="Heavy Metal">
                             <h2 class="v-margin">Heavy Metal</h2>
@@ -221,74 +221,58 @@
     </div>
 
     <!--FOOTER-->
-    
     <footer>
-        <div class="row flexy">
-
-            <!-- Colonna footer left-->
-
-            <div class="col-foot">
-                <div class="content-lft">
-                    <div class="music-ripro">       
-                        <img src="./img/sinister.jpeg" alt="sinister-cover">
-                        <div class="Author-tag">
-                            <h3>Sinister</h3>
-                            <p>Brano Nome</p>
-                        </div>
-                        <div class="icon-ripro">       
-                            <div class="icone pad-left">
-                                <ul>
-                                    <li>
-                                        <i class="fa-regular fa-heart"></i>
-                                    </li>
-                                    <li>
-                                        <i class="fa-regular fa-folder"></i>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+        <!--FOOTER LEFT COL-->
+        <div class="player-bar">
+            <div class="content-lft">
+                <div class="current-song">
+                    <div class="current-band-img">
+                        <img src="./img/sinister.jpeg" alt="sinister" class="playng-img">
                     </div>
-                    
+                    <div class="song-info">
+                        <h3>Sinister</h3>
+                        <p>Brano Nome</p>
+                    </div>
+                    <div class="fav-icons">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-folder"></i></a>
+                    </div>   
                 </div>
             </div>
-            
-            <!-- Colonna footer center-->
-
-            <div class="col-foot">
-                <div class="container-player">
-                    <div class="player-icon">
-                        <i class="fa-solid fa-shuffle"></i>
-                        <i class="fa-solid fa-backward-step"></i>
-                        <i class="fa-regular fa-circle-play"></i>
-                        <i class="fa-solid fa-forward-step"></i>
-                        <i class="fa-solid fa-arrow-rotate-right"></i>
-                    </div>                   
-                    <div class="player">
-                        <span class="time">
-                            <p>0.25</p>
-                        </span>
-                        <input type="range" id="volume" name="volume" min="0" max="10">
-                        <span class="time">
-                            <p>4.35</p>
-                        </span>
-                    </div>                      
-                </div>
-            </div>
-            
-            <!-- Colonna footer right-->
-
-            <div class="col-foot">
-                <div class="content-rght">
-                    <div class="layout-icone">       
-                        <div class="icone">
-                            <i class="fa-solid fa-list-ul"></i>
-                            <i class="fa-solid fa-desktop"></i>
-                            <i class="fa-solid fa-volume-high"></i>
+            <!--FOOTER CENTRAL COL-->
+            <div class="central-player">
+                <div class="player-icon">
+                    <ul>
+                        <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-backward-step"></i></a></li>
+                        <li><a href="#"><i class="fa-regular fa-circle-play"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-forward-step"></i></a></li>
+                        <li><a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a></li>
+                    </ul>
+                </div>                   
+                <div class="time-bar">
+                    <div class="time-min">0:25</div>
+                    <div class="progres-bar">
+                        <div class="played-time">
+                            <div class="bar-cursor"></div>
                         </div>
                     </div>
-                    <div class="volume-icone">       
-                        <div class="icone">
-                            <input type="range" id="volume" name="volume" min="0" max="10">
+                    <div class="time-max">4:35</div>
+                </div>
+            </div>
+            <!--FOOTER RIGHT-->
+            <div class="content-rght">
+                <div class="layout-icon">
+                    <ul>
+                       <li><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
+                       <li><a href="#"><i class="fa-solid fa-desktop"></i></a></li>
+                       <li><a href="#"><i class="fa-solid fa-volume-high"></i></a></li>
+                    </ul>      
+                </div>
+                <div class="volume-icon">       
+                    <div class="vol-bar">
+                        <div class="volume">
+                            <div class="vol-cursor"></div>
                         </div>
                     </div>
                 </div>
@@ -296,5 +280,6 @@
         </div>
     </footer>
     
+
 </body>
 </html>
