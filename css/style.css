@@ -20,6 +20,18 @@ header{
     background-color: rgb(0, 0, 0, 0.5);
 }
 
+button{
+    padding: .5rem 2.5rem;
+    border-radius: 25px;
+    background-color: transparent;
+    font-weight: 800;
+    display: flex;
+}
+
+header button:hover{
+    font-size: 1rem;
+}
+
 /*----MAIN CONTENT*/
 
 main{
@@ -411,14 +423,6 @@ h3{
     font-size: 0.9rem;
 }
 
-button{
-    padding: .5rem 2.5rem;
-    border-radius: 25px;
-    background-color: transparent;
-    font-weight: 800;
-    display: flex;
-}
-
 .row{
     width: 100%;
     display:flex;
@@ -467,39 +471,6 @@ button{
 
 .wild{
     display: none;
-}
-
-/*----INPUT----*/
-
-.player input[type=range]{
-    width: 80%;
-}
-
-input[type=range]{
-    height: .25rem;
-    background-color: #828282;
-    -webkit-appearance: none;
-    width: 100%;
-    vertical-align: middle;
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-input[type=range]::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    width: 1rem;
-    height: 1rem;
-    border-radius: 10rem;
-    margin-left: -.5rem;
-    background-color: rgba(255, 255, 255, 0);
-    box-shadow: -20rem 0 0 20rem #fff;
-}
-
-input[type=range]:hover::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    margin-left: -.5rem;
-    background: #fff;
-    box-shadow: -20rem 0 0 20rem #0ce005;
 }
 
 /*----MEDIA----*/
